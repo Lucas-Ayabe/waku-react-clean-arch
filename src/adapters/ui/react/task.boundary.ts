@@ -1,6 +1,6 @@
 "use server";
 
-import { InMemoryTaskRepository } from "../../../adapters/in-memory";
+import { InMemoryTaskRepository } from "../../data/in-memory";
 import {
   FilterTasks,
   CreateTask,
