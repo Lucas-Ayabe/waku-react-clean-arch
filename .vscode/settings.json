@@ -1,0 +1,23 @@
+{
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "node_modules": true,
+    "dist": true,
+    "build": true,
+    "public": true,
+    ".editorconfig": true,
+    ".gitignore": true,
+    ".vscode": false,
+    "package.json": false,
+    "package-lock.json": true,
+    "tsconfig.json": false,
+    "tsconfig.tsbuildinfo": true,
+    "vite.config.ts": true,
+    "src/pages.gen.ts": true
+  }
+}

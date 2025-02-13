@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font: 100%/1.4 "Nunito", sans-serif;
+  padding: 4em;
+}
+
+main > div {
+  display: grid;
+  gap: 2.5em;
+}
+
+input,
+select,
+option,
+textarea,
+button {
+  font: inherit;
+}
+
+input {
+  border: 1px solid #ccc;
+  padding: 0.5em;
+}
+
+form {
+  display: grid;
+  gap: 0.5em;
+}
+
+.tasks {
+  list-style: none;
+
+  li {
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+  }
+
+  li > :first-child {
+    flex: 1;
+  }
+}
